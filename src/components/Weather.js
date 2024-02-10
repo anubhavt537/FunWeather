@@ -120,7 +120,7 @@ const Weather = () => {
           )}
         </div>
         <button className="getweather" type="button" onClick={fetchWeatherData}>Get Weather</button>
-        <button className="getweather" type="button" onClick={handleUnitChange}>Toggle Unit</button>
+        <button className="getweather" type="button" onClick={handleUnitChange}>Change Unit</button>
       </form>
       {weatherData && (
         <div>
